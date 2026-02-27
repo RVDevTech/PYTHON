@@ -11,7 +11,7 @@
   * 1.3- Strings y sus métodos 
 ## A) Tratamiento de datos básicos y estructuras lógicas:
 
-### <span style="text-decoration: underline;">0- Introducción:</span>
+### 0- Introducción:
  * #### ¿Qué es Python?
 <p align="justify">
  <strong>Python</strong> es un lenguaje de programación<strong> versátil, moderno y fácil de aprender</strong>, ampliamente utilizado en desarrollo web, ciencia de datos, inteligencia artificial, automatización y mucho más. Su sintaxis clara y legible lo hace <strong> ideal tanto para principiantes como para desarrolladores experimentados, </strong> permitiendo escribir código eficiente y mantenible.
@@ -31,10 +31,10 @@
 * #### Sobre este repositorio:
 <p align="justify">
  Este repositorio contiene <strong>apuntes didácticos de Python</strong>, diseñados para aprender paso a paso de manera visual y práctica. Está organizado en dos secciones principales:<br>
- <br><strong><u>1. Cuaderno de apuntes:</u></strong>  <br>
+ <br><strong><span style="text-decoration: underline;">1. Cuaderno de apuntes:</span></strong> <br>
    - Explica la teoría de <strong>Python de manera estructurada.</strong>  <br>
    - Incluye <strong>ejemplos de código</strong> que ilustran los conceptos aprendidos. <br> 
- <br><strong><u>2. Carpeta de Programas (Ejercicios prácticos):</u></strong> <br>
+ <br><strong><span style="text-decoration: underline;">2. Carpeta de Programas (Ejercicios prácticos):</span></strong> <br>
    - Contiene <strong>ejercicios reales</strong> que permiten experimentar con el código.  <br>
    - Cada ejemplo refleja <strong>situaciones prácticas </strong>y ayuda a reforzar los conocimientos adquiridos en los apuntes teóricos.  <br>
  <br>Este enfoque permite <strong>aprender teoría y práctica simultáneamente</strong>, facilitando la comprensión y memorización de <strong>Python</strong> de forma visual y aplicada.
@@ -66,9 +66,10 @@ Con este enfoque, incluso <strong>los más principiantes pueden empezar a progra
 </p>
 
 ---
-### <span style="text-decoration: underline;">1- Sintaxis y fundamentos del lenguaje:</span>
+### >1- Sintaxis y fundamentos del lenguaje:
 
-* #### <span style="text-decoration: underline;">1.1- Asignación de variables  y tipos de datos primitivos:</span>
+* #### 1.1- Asignación de variables  y tipos de datos primitivos:
+
 En **Python existen diferentes tipos de datos básicos:**<br>
 •	**Strings (str):** cadenas de texto (P.ej.: ”Hola, María”).<br>
 •	**Números enteros (int):** números de tipo entero (P.ej.: 3, -5).<br>
@@ -85,13 +86,13 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 075624.png>)
 
-* #### <span style="text-decoration: underline;">1.2- Impresión de datos y variables:</span>
+* #### 1.2- Impresión de datos y variables:
 
 <p align="justify">
    Para <strong>imprimir una variable</strong> o dato en <strong>Python</strong> se utiliza la función <strong>print()</strong>. Para imprimir varias de ellas, se deben <strong>separar por comas dentro de ()</strong>. No obstante, estas variables pueden <strong>mostrarse de distintas formas al imprimirse</strong> y su presentación puede configurarse mediante <strong>argumentos de la función:</strong>
 </p>
 
-* ##### <u>Parámetros modificables:</u> 
+• <h4><span style="text-decoration: underline;">Parámetros modificables:</span></strong></h4> 
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 085856.png>)
 
@@ -127,7 +128,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
    Por otra parte, cuando escribimos código en <strong>Python,</strong> s recomendable acompañarlo de <strong> comentarios y docstrings </strong> para facilitar su comprensión:
 </p>
  
-* ##### <u>Tipos de comentarios:</u> 
+• <h4><span style="text-decoration: underline;">Tipos de comentarios:</span></strong></h4> 
 
 - **Comentarios de una sola línea,** que se indican con el **símbolo #.**
 - **Comentarios de varias líneas / docstrings:**
