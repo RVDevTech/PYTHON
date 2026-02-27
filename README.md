@@ -125,7 +125,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 <br>
 
 <p align="justify">
-   Por otra parte, cuando escribimos código en <strong>Python,</strong> s recomendable acompañarlo de <strong> comentarios y docstrings </strong> para facilitar su comprensión:
+   Por otra parte, cuando escribimos código en <strong>Python,</strong> es recomendable acompañarlo de <strong> comentarios y docstrings </strong> para facilitar su comprensión:
 </p>
  
 - **Tipos de comentarios:**
