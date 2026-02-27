@@ -128,12 +128,11 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
    Por otra parte, cuando escribimos código en <strong>Python,</strong> s recomendable acompañarlo de <strong> comentarios y docstrings </strong> para facilitar su comprensión:
 </p>
  
-* **Tipos de comentarios:**</span></strong></h4> **
-
-- **Comentarios de una sola línea,** que se indican con el **símbolo #.**
-- **Comentarios de varias líneas / docstrings:**
-o	Se usan **triples comillas """ ... """** para **abrir y cerrar el comentario** en varias líneas.
-o	Más adelante veremos que, **al usarlos para definir funciones,** se pueden **consultar desde el código mediante el atributo .__doc__ .**
+- **Tipos de comentarios:**
+  * **Comentarios de una sola línea,** que se indican con el **símbolo #.**
+  * **Comentarios de varias líneas / docstrings:**
+    *	Se usan **triples comillas """ ... """** para **abrir y cerrar el comentario** en varias líneas.
+    *	Más adelante veremos que, **al usarlos para definir funciones,** se pueden **consultar desde el código mediante el atributo .__doc__ .**
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 090046.png>)
 
