@@ -1,25 +1,17 @@
 # PYTHON: PROGRAMACIÓN BACKEND Y TRATAMIENTO DE DATOS
----
 
 ![alt text](ASSETS/image.png)
 
 ## -ÍNDICE:
----
 ### A) Tratamiento de datos básicos y estructuras lógicas:
 - **0- Introducción.**
 - **1- Sintaxis y fundamentos del lenguaje:**
   * 1.1- Asignación de variables y tipos de datos primitivos 
   * 1.2- Impresión de datos y variables 
   * 1.3- Strings y sus métodos 
-# <br>
-# <br>
-# <br>
+## A) Tratamiento de datos básicos y estructuras lógicas:
 
-# <br>
-### A) Tratamiento de datos básicos y estructuras lógicas:
----
-
-## <u>0- Introducción:</u>
+### <span style="text-decoration: underline;">Introducción:</span>
  * #### ¿Qué es Python?
 <p align="justify">
  <strong>Python</strong> es un lenguaje de programación <strong> versátil, moderno y fácil de aprender </strong>, ampliamente utilizado en desarrollo web, ciencia de datos, inteligencia artificial, automatización, y mucho más. Su sintaxis clara y legible lo hace <strong> ideal tanto para principiantes como para desarrolladores experimentados, </strong> permitiendo escribir código eficiente y mantenible.
@@ -75,9 +67,9 @@ Con este enfoque, incluso <strong>los más principiantes pueden empezar a progra
 </p>
 
 ---
-## <u>1- Sintaxis y fundamentos del lenguaje:</u>
+### <span style="text-decoration: underline;">1- Sintaxis y fundamentos del lenguaje:</span>
 
-* #### <u>1.1- Asignación de variables y tipos de datos primitivos:</u>
+* #### <span style="text-decoration: underline;">1.1- Asignación de variables  y tipos de datos primitivos:</span>
 En **Python existen diferentes tipos de datos básicos:**<br>
 •	**Strings (str):** cadenas de texto (P.ej.: ”Hola, María”).
 •	**Números enteros (int):** números de tipo entero (P.ej.: 3, -5).
@@ -94,7 +86,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 075624.png>)
 
-* #### <u>1.2- Impresión de datos y variables:</u> 
+* #### <span style="text-decoration: underline;">1.2- Impresión de datos y variables:</span>
 
 <p align="justify">
    Para <strong>imprimir una variable</strong> o dato en <strong>Python</strong> se utiliza la función <strong>print()</strong>. Para imprimir varias de ellas, se deben <strong>separar por comas dentro de ()</strong>. No obstante, estas variables pueden <strong>mostrarse de distintas formas al imprimirse</strong> y su presentación puede configurarse mediante <strong>argumentos de la función:</strong>
