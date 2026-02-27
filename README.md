@@ -11,22 +11,21 @@
   * 1.3- Strings y sus métodos 
 ## A) Tratamiento de datos básicos y estructuras lógicas:
 
-### <span style="text-decoration: underline;">Introducción:</span>
+### <span style="text-decoration: underline;">0- Introducción:</span>
  * #### ¿Qué es Python?
 <p align="justify">
- <strong>Python</strong> es un lenguaje de programación <strong> versátil, moderno y fácil de aprender </strong>, ampliamente utilizado en desarrollo web, ciencia de datos, inteligencia artificial, automatización, y mucho más. Su sintaxis clara y legible lo hace <strong> ideal tanto para principiantes como para desarrolladores experimentados, </strong> permitiendo escribir código eficiente y mantenible.
+ <strong>Python</strong> es un lenguaje de programación<strong> versátil, moderno y fácil de aprender</strong>, ampliamente utilizado en desarrollo web, ciencia de datos, inteligencia artificial, automatización y mucho más. Su sintaxis clara y legible lo hace <strong> ideal tanto para principiantes como para desarrolladores experimentados, </strong> permitiendo escribir código eficiente y mantenible.
 </p>
 
 ![alt text](ASSETS/Python-logo.png)
 
 * #### ¿Para qué sirve y por qué es importante?
-<p align="justify">
- <strong>Python</strong> se ha convertido en uno de los lenguajes más importantes del mundo tecnológico por varias razones:<br>
-  <br><strong> - Multipropósito</strong>: permite crear desde aplicaciones web hasta  <strong>sistemas de inteligencia artificial.</strong>  <br>
-  <strong>- Gran comunidad y ecosistema</strong>: bibliotecas como  <strong>NumPy, Pandas, FastAPI o TensorFlow </strong>facilitan el desarrollo de soluciones complejas.  <br>
-  <strong>- Lectura y mantenimiento fácil</strong>: la sintaxis clara reduce errores y acelera el aprendizaje.  <br>
- - <strong>Popularidad y demanda laboral</strong>: es el <strong>lenguaje preferido en startups</strong>, empresas tecnológicas y proyectos de investigación.  
-</p>
+
+<strong>Python</strong> se ha convertido en uno de los lenguajes más importantes del mundo tecnológico por varias razones:<br>
+<br><strong> - Multipropósito</strong>: permite crear desde aplicaciones web hasta  <strong>sistemas de inteligencia artificial.</strong>  <br>
+<strong>- Gran comunidad y ecosistema</strong>: bibliotecas como  <strong>NumPy, Pandas, FastAPI o TensorFlow </strong>facilitan el desarrollo de soluciones complejas.  <br>
+<strong>- Lectura y mantenimiento fácil</strong>: la sintaxis clara reduce errores y acelera el aprendizaje.  <br>
+- <strong>Popularidad y demanda laboral</strong>: es el <strong>lenguaje preferido en startups</strong>, empresas tecnológicas y proyectos de investigación.  
 
 ---
 * #### Sobre este repositorio:
@@ -35,10 +34,10 @@
  <br><strong><u>1. Cuaderno de apuntes:</u></strong>  <br>
    - Explica la teoría de <strong>Python de manera estructurada.</strong>  <br>
    - Incluye <strong>ejemplos de código</strong> que ilustran los conceptos aprendidos. <br> 
- <br><strong><u>2. Carpeta Programs (Ejercicios prácticos):</u></strong>: <br>
+ <br><strong><u>2. Carpeta de Programas (Ejercicios prácticos):</u></strong> <br>
    - Contiene <strong>ejercicios reales</strong> que permiten experimentar con el código.  <br>
    - Cada ejemplo refleja <strong>situaciones prácticas </strong>y ayuda a reforzar los conocimientos adquiridos en los apuntes teóricos.  <br>
- <br>Este enfoque permite <strong>aprender teoría y práctica simultáneamente</strong>, facilitando la comprensión y memorización de Python de forma visual y aplicada.
+ <br>Este enfoque permite <strong>aprender teoría y práctica simultáneamente</strong>, facilitando la comprensión y memorización de <strong>Python</strong> de forma visual y aplicada.
 </p>
 
 ![alt text](ASSETS/visual-studio-code-banner-image.jpg)
@@ -71,7 +70,7 @@ Con este enfoque, incluso <strong>los más principiantes pueden empezar a progra
 
 * #### <span style="text-decoration: underline;">1.1- Asignación de variables  y tipos de datos primitivos:</span>
 En **Python existen diferentes tipos de datos básicos:**<br>
-•	**Strings (str):** cadenas de texto (P.ej.: ”Hola, María”).
+•	**Strings (str):** cadenas de texto (P.ej.: ”Hola, María”).<br>
 •	**Números enteros (int):** números de tipo entero (P.ej.: 3, -5).<br>
 •	**Números decimales (float):** números de tipo decimal (P.ej.: 2.1, -0.5).<br>
 •	**Números complejos (complex):** números de tipo complejo (P.ej.: 2+3j).<br>
@@ -95,6 +94,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 * ##### <u>Parámetros modificables:</u> 
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 085856.png>)
+
 •	***Objects**: los objetos que se pasan como **argumentos variables.**
 <p align="justify">
    •	<strong>Sep:</strong> separación entre <strong>elementos de diferentes variables o una misma cadena de texto</strong>. Por defecto, <strong>toma el valor “ ”</strong> (Espacio). 
