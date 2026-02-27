@@ -72,10 +72,10 @@ Con este enfoque, incluso <strong>los más principiantes pueden empezar a progra
 * #### <span style="text-decoration: underline;">1.1- Asignación de variables  y tipos de datos primitivos:</span>
 En **Python existen diferentes tipos de datos básicos:**<br>
 •	**Strings (str):** cadenas de texto (P.ej.: ”Hola, María”).
-•	**Números enteros (int):** números de tipo entero (P.ej.: 3, -5).
-•	**Números decimales (float):** números de tipo decimal (P.ej.: 2.1, -0.5).
-•	**Números complejos (complex):** números de tipo complejo (P.ej.: 2+3j).
-•	**Booleanos(bool):** valores lógicos que toman valores del tipo **(True/False).**
+•	**Números enteros (int):** números de tipo entero (P.ej.: 3, -5).<br>
+•	**Números decimales (float):** números de tipo decimal (P.ej.: 2.1, -0.5).<br>
+•	**Números complejos (complex):** números de tipo complejo (P.ej.: 2+3j).<br>
+•	**Booleanos(bool):** valores lógicos que toman valores del tipo **(True/False).**<br>
 <p align="justify">
    <strong>Python es de tipado dinámico</strong>, lo que significa que <strong>no se declara el tipo explícitamente</strong>; el intérprete <strong>lo deduce automáticamente.</strong><br>
    Para <strong>asignar un valor de cualquier tipo a una variable</strong>, debemos usar el <strong>operador de asignación “=”.</strong>
