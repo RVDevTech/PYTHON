@@ -31,10 +31,10 @@
 * #### Sobre este repositorio:
 <p align="justify">
  Este repositorio contiene <strong>apuntes didácticos de Python</strong>, diseñados para aprender paso a paso de manera visual y práctica. Está organizado en dos secciones principales:<br>
- <br><strong><span style="text-decoration: underline;">1. Cuaderno de apuntes:</span></strong> <br>
+ <br><strong>1. Cuaderno de apuntes:</strong> <br>
    - Explica la teoría de <strong>Python de manera estructurada.</strong>  <br>
    - Incluye <strong>ejemplos de código</strong> que ilustran los conceptos aprendidos. <br> 
- <br><strong><span style="text-decoration: underline;">2. Carpeta de Programas (Ejercicios prácticos):</span></strong> <br>
+ <br><strong>2. Carpeta de Programas (Ejercicios prácticos):</strong> <br>
    - Contiene <strong>ejercicios reales</strong> que permiten experimentar con el código.  <br>
    - Cada ejemplo refleja <strong>situaciones prácticas </strong>y ayuda a reforzar los conocimientos adquiridos en los apuntes teóricos.  <br>
  <br>Este enfoque permite <strong>aprender teoría y práctica simultáneamente</strong>, facilitando la comprensión y memorización de <strong>Python</strong> de forma visual y aplicada.
@@ -66,7 +66,7 @@ Con este enfoque, incluso <strong>los más principiantes pueden empezar a progra
 </p>
 
 ---
-### >1- Sintaxis y fundamentos del lenguaje:
+### 1- Sintaxis y fundamentos del lenguaje:
 
 * #### 1.1- Asignación de variables  y tipos de datos primitivos:
 
@@ -92,7 +92,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
    Para <strong>imprimir una variable</strong> o dato en <strong>Python</strong> se utiliza la función <strong>print()</strong>. Para imprimir varias de ellas, se deben <strong>separar por comas dentro de ()</strong>. No obstante, estas variables pueden <strong>mostrarse de distintas formas al imprimirse</strong> y su presentación puede configurarse mediante <strong>argumentos de la función:</strong>
 </p>
 
-• <h4><span style="text-decoration: underline;">Parámetros modificables:</span></strong></h4> 
+* **Parámetros modificables:** 
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 085856.png>)
 
@@ -128,7 +128,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
    Por otra parte, cuando escribimos código en <strong>Python,</strong> s recomendable acompañarlo de <strong> comentarios y docstrings </strong> para facilitar su comprensión:
 </p>
  
-• <h4><span style="text-decoration: underline;">Tipos de comentarios:</span></strong></h4> 
+* **Tipos de comentarios:**</span></strong></h4> **
 
 - **Comentarios de una sola línea,** que se indican con el **símbolo #.**
 - **Comentarios de varias líneas / docstrings:**
