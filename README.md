@@ -192,8 +192,8 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
    Por otro lado, los <strong>índices negativos</strong> comienzan en <strong>-1 desde el último carácter</strong> y disminuyen de <strong>derecha a izquierda</strong> (P.ej.: en el mismo ejemplo, la 'n' tiene índice -1, la 'o' índice -2 y la 'P' índice -6).
 </p>
 
-![alt text](<ASSETS/Captura de pantalla 2026-02-28 155318.png>)
-<br>
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 155318.png>)<br>
+
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 160343.png>)
 <br>
 
@@ -216,3 +216,11 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 162640.png>)
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 162808.png>)
+
+* #### 	Otros tipos de modificaciones:
+<p align="justify">
+ <strong>- str.maketrans (old,new,delete) y translate():</strong> los métodos <strong>str.maketrans()</strong> y <strong>str.translate()</strong> se utilizan juntos para <strong>reemplazar o eliminar caracteres</strong> en una cadena de <strong>forma rápida.</strong>
+</p><br>
+
+* <p align="justify">Primero, <strong>str.maketrans (old, new, delete)</strong> crea un <strong>mapa de traducción</strong> donde los <strong>caracteres indicados en old</strong> se reemplazan <strong>por los de new</strong> en el mismo orden, y los <strong>caracteres incluidos en delete</strong> se <strong>eliminan</strong> de la cadena; este método <strong>no modifica la cadena todavía,</strong> solo define cómo se harán los cambios.</p><br>
+* <p align="justify">Luego, <strong>str.translate (mapa)</strong> aplica ese mapa a la cadena y devuelve <strong>una nueva cadena modificada,reemplazando</strong> los caracteres <strong>según lo indicado y eliminando</strong> los que se incluyeron <strong>para borrar.</strong> (P.ej.: si tenemos texto = "abcdef" y creamos un mapa con str.maketrans("abc", "123", "f"), al aplicar texto.translate(mapa) obtendremos "123de", donde 'a'→'1', 'b'→'2', 'c'→'3' y 'f' se elimina).</p><br> 	  
