@@ -192,8 +192,9 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
    Por otro lado, los <strong>índices negativos</strong> comienzan en <strong>-1 desde el último carácter</strong> y disminuyen de <strong>derecha a izquierda</strong> (P.ej.: en el mismo ejemplo, la 'n' tiene índice -1, la 'o' índice -2 y la 'P' índice -6).
 </p>
 
-![alt text](<ASSETS/Captura de pantalla 2026-02-28 155318.png>)
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 155318.png>)<br>
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 160343.png>)
+<br>
 
 **- Métodos de comprobación booleana:**
 
@@ -207,7 +208,7 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
  •	**.isascii():** devuelve <strong><em>True</em></strong> si los **caracteres son ASCII** **(códigos 0–127).**<br>
  •	**.islower():** devuelve <strong><em>True</em></strong> si todas **las letras están en minúscula.**<br>
  •	**.isupper():** devuelve <strong><em>True</em></strong> si todas **las letras están en mayúscula.**<br>
- •	**.istitle():** devuelve <strong><em>True</em></strong> si la cadena está formada por títulos.<br><br>
+ •	**.istitle():** devuelve <strong><em>True</em></strong> si la cadena está formada por títulos.<br>
  •	**.isidentifier():** devuelve <strong><em>True</em></strong> si el **nombre de variable es válido.**<br>
  •	**.startswith(prefijo):** devuelve <strong><em>True</em></strong> si la **cadena empieza por el prefijo.**<br>
  •	**.endswith(sufijo):** devuelve <strong><em>True</em></strong> si la **cadena termina por el sufijo.**
