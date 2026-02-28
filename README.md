@@ -230,18 +230,18 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 </p>
 
 - <p align="justify"><strong>Escapes:</strong> en <strong>Python,</strong> las cadenas de texto pueden contener <strong>caracteres especiales</strong> mediante <strong>secuencias de escape,</strong> que comienzan con la <strong>barra invertida "\".</strong> Estos caracteres permiten <strong>insertar símbolos o efectos</strong> dentro de las cadenas.</p>
-- <strong>Caracteres de escape más comunes:</strong>
-•	**\n** → salto de línea
-•	**\t** → tabulación horizontal
-•	**\\\\** → barra invertida literal
-•	**\\'** y **\\"** → comillas simples o dobles dentro de la cadena
-•	**\r** → retorno de carro (reescribe desde el inicio de la línea, superponiendo texto)
-- <strong>Caracteres de escape menos frecuentes:</strong>
-•	**\b** → retroceso (borra un solo carácter hacia atrás)
-•	**\f** → salto de página (espacio vertical grande)
+- <strong>Caracteres de escape más comunes:</strong><br>
+•	**\n** → salto de línea<br>
+•	**\t** → tabulación horizontal<br>
+•	**\\\\** → barra invertida literal<br>
+•	**\\'** y **\\"** → comillas simples o dobles dentro de la cadena<br>
+•	**\r** → retorno de carro (reescribe desde el inicio de la línea, superponiendo texto)<br>
+- <strong>Caracteres de escape menos frecuentes:</strong><br>
+•	**\b** → retroceso (borra un solo carácter hacia atrás)<br>
+•	**\f** → salto de página (espacio vertical grande)<br>
 •	**\v** → tabulación vertical
 
-- <p align="justify"><strong>Raw strings:</strong> las <strong>aw strings (r"...")</strong> se usan para que los <strong>caracteres de escape no se interpreten</strong> y la cadena se tome <strong>literalmente.</strong> (P.ej.: r"Hola\nMundo" se representa exactamente como Hola\nMundo, mostrando la barra y la letra n sin producir un salto de línea).</p>
+- <p align="justify"><strong>Raw strings:</strong> las <strong>raw strings (r"...")</strong> se usan para que los <strong>caracteres de escape no se interpreten</strong> y la cadena se tome <strong>literalmente.</strong> (P.ej.: r"Hola\nMundo" se representa exactamente como Hola\nMundo, mostrando la barra y la letra n sin producir un salto de línea).</p>
 - <p align="justify"><strong>Función repr():</strong> la función <strong>repr()</strong> devuelve la <strong>representación oficial</strong> de la cadena, mostrando los <strong>caracteres de escape y delimitando la cadena con comillas.</strong> La <strong>diferencia entre una raw string y un repr()</strong> es principalmente que <strong>repr()</strong> muestra explícitamente <strong>las comillas</strong> que delimitan la cadena, mientras que la <strong>raw string</strong> solo <strong>impide que los escapes se interpreten.</strong></p> 
 <p align="justify">
  En la práctica, si <strong>la cadena no contiene escapes,</strong> una <strong>cadena normal,</strong> una <strong>raw string</strong> y un <strong>repr()</strong> se comportan <strong>igual al imprimirse;</strong> la <strong>única diferencia visual </strong>será la presencia de las <strong>comillas en la salida de repr().</strong>
