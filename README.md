@@ -219,8 +219,30 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 
 * #### 	Otros tipos de modificaciones:
 <p align="justify">
- <strong>- str.maketrans (old,new,delete) y translate():</strong> los métodos <strong>str.maketrans()</strong> y <strong>str.translate()</strong> se utilizan juntos para <strong>reemplazar o eliminar caracteres</strong> en una cadena de <strong>forma rápida.</strong>
+ <strong>- str.maketrans (old,new,delete) y translate():</strong> los métodos <strong>str.maketrans()</strong> y <strong>str.translate()</strong> se utilizan juntos para <strong>reemplazar o eliminar caracteres</strong> en una cadena de <strong>forma rápida:</strong>
 </p>
 
 * <p align="justify">Primero, <strong>str.maketrans (old, new, delete)</strong> crea un <strong>mapa de traducción</strong> donde los <strong>caracteres indicados en old</strong> se reemplazan <strong>por los de new</strong> en el mismo orden, y los <strong>caracteres incluidos en delete</strong> se <strong>eliminan</strong> de la cadena; este método <strong>no modifica la cadena todavía,</strong> solo define cómo se harán los cambios.</p>
 * <p align="justify">Luego, <strong>str.translate (mapa)</strong> aplica ese mapa a la cadena y devuelve <strong>una nueva cadena modificada,reemplazando</strong> los caracteres <strong>según lo indicado y eliminando</strong> los que se incluyeron <strong>para borrar.</strong> (P.ej.: si tenemos texto = "abcdef" y creamos un mapa con str.maketrans ("abc", "123", "f"), al aplicar texto.translate (mapa) obtendremos "123de", donde 'a'→'1', 'b'→'2', 'c'→'3' y 'f' se elimina).</p>
+
+<p align="justify">
+ <strong>- Escapes, raw strings y función repr () en Python:</strong>
+</p>
+
+- <p align="justify"><strong>Escapes:</strong> en <strong>Python,</strong> las cadenas de texto pueden contener <strong>caracteres especiales</strong> mediante <strong>secuencias de escape,</strong> que comienzan con la <strong>barra invertida "\".</strong> Estos caracteres permiten <strong>insertar símbolos o efectos</strong> dentro de las cadenas.</p>
+- <strong>Caracteres de escape más comunes:</strong>
+•	**\n** → salto de línea
+•	**\t** → tabulación horizontal
+•	**\\\\** → barra invertida literal
+•	**\\'** y **\\"** → comillas simples o dobles dentro de la cadena
+•	**\r** → retorno de carro (reescribe desde el inicio de la línea, superponiendo texto)
+- <strong>Caracteres de escape menos frecuentes:</strong>
+•	**\b** → retroceso (borra un solo carácter hacia atrás)
+•	**\f** → salto de página (espacio vertical grande)
+•	**\v** → tabulación vertical
+
+- <p align="justify"><strong>Raw strings:</strong> las <strong>aw strings (r"...")</strong> se usan para que los <strong>caracteres de escape no se interpreten</strong> y la cadena se tome <strong>literalmente.</strong> (P.ej.: r"Hola\nMundo" se representa exactamente como Hola\nMundo, mostrando la barra y la letra n sin producir un salto de línea).</p>
+- <p align="justify"><strong>Función repr():</strong> la función <strong>repr()</strong> devuelve la <strong>representación oficial</strong> de la cadena, mostrando los <strong>caracteres de escape y delimitando la cadena con comillas.</strong> La <strong>diferencia entre una raw string y un repr()</strong> es principalmente que <strong>repr()</strong> muestra explícitamente <strong>las comillas</strong> que delimitan la cadena, mientras que la <strong>raw string</strong> solo <strong>impide que los escapes se interpreten.</strong></p> 
+<p align="justify">
+ En la práctica, si <strong>la cadena no contiene escapes,</strong> una <strong>cadena normal,</strong> una <strong>raw string</strong> y un <strong>repr()</strong> se comportan <strong>igual al imprimirse;</strong> la <strong>única diferencia visual </strong>será la presencia de las <strong>comillas en la salida de repr().</strong>
+</p>
