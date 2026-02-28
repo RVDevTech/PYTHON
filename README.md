@@ -137,3 +137,57 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 090046.png>)
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 090150.png>)
+
+* #### 1.3- Strings y sus métodos:
+
+<p align="justify">
+   Los strings <strong>son inmutables.</strong> Sus métodos <strong>no modifican la cadena original,</strong> sino que devuelven <strong>una nueva.</strong>
+</p>
+
+* ##### 	Métodos (str.metodo() ):
+
+**- Métodos de formato y transformación:**
+
+ •	**.lowe ():** convierte todo el **texto a minúsculas.**
+ •	**.upper ():** convierte todo el **texto a mayúsculas.**
+ •	**.title ():** pone en **mayúscula la primera letra de cada palabra.**
+ •	**.capitalize ():** pone en **mayúscula la primera letra de la cadena completa.**
+ •	**.swapcase ():** invierte las **mayúsculas y minúsculas.**
+ •	**.casefold ():** aplana **cualquier tipo de caracteres a minúsculas** (Más agresivo).
+ •	**.strip (chars=None):** elimina **espacios o caracteres** indicados al **inicio y final.**
+ •	**.lstrip (chars=None):** elimina **espacios o caracteres** indicados solo **en el inicio.**
+ •	**.rstrip (chars=None):** elimina **espacios o caracteres** indicados solo **en el final.**
+ •	**.ljust (width, fillchar=' '):** **alinea el texto a la izquierda** rellenando hasta width con fillchar.
+ •	**.rjust (width, fillchar=' '):** alinea el texto a la derecha rellenando hasta **width** con **fillchar.**
+ •	**.center (width, fillchar=' '):** **centra el texto** en **width** rellenando con **fillchar.**
+ •	**.zfill (width):** rellena con **ceros a la izquierda hasta width.**
+ •	**.replace (old, new, count=-1 o count=n):** **sustituye texto por otro** (opcional limitar cantidad con **“n”**, de lo contrario **será -1 por defecto**)
+ •	**.removeprefix (prefix):** **elimina un prefijo** exacto si existe.
+ •	**.removesuffix (suffix):** **elimina un sufijo** exacto si existe.
+ •	**.expandtabs (tabsize=n):** sustituye **“\t” por “n” espacios** según tamaño de tabulación.
+
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 142443.png>)
+
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 144005.png>)
+
+
+**- Métodos de formato y transformación:**
+
+ •	**.find (sub):** busca la **primera aparición** de la subcadena **sub** y devuelve **su índice**, o **-1 si no existe.**
+ •	**.rfind (sub):** busca la **última aparición** de la subcadena **sub** y devuelve **su índice**, o **-1 si no existe.**
+ •	**.count (sub):**   cuenta **cuántas veces** aparece la subcadena **sub.**
+ •	**.index (sub):** igual que **.find (),** devuelve el **índice de la primera aparición de sub**, pero si no lo encuentra lanza un **ValueError,** que **frenará el código** a menos que le asignemos una **acción alternativa.**
+ •	**.partition (sep):** divide la cadena en **tres partes** usando la **primera aparición del separador sep,** creando una **tupla** (que veremos más adleante).
+ •	**.rpartition ():** divide la cadena en **tres partes** usando la **última aparición del separador sep,** creando una **tupla.**
+ •	**slicing [start:stop:step]:** extrae **subcadenas de la cadena usando índices,** contando el de **inicio pero no el de final,** y con distancia **step** (Por defecto 1).
+
+Cada **letra o carácter en una cadena de texto tiene un índice,** que nos permite acceder a él usando **corchetes [ ].** Los índices pueden ser **positivos o negativos,** y esto determina **desde dónde contamos:**
+
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 144016.png>)
+
+<p align="justify">
+   Los <strong>índices positivos</strong> comienzan en <strong>0 desde el primer carácter</strong> y aumentan de <strong>izquierda a derecha</strong> (P.ej.: en la palabra "Python" la 'P' tiene índice 0, la 'y' índice 1 y así sucesivamente hasta la 'n' que tiene índice 5).
+</p>
+<p align="justify">
+   Por otro lado, los <strong>índices negativos</strong> comienzan en <strong>-1 desde el último carácter</strong> y disminuyen de <strong>derecha a izquierda</strong> (P.ej.: en el mismo ejemplo, la 'n' tiene índice -1, la 'o' índice -2 y la 'P' índice -6).
+</p>
