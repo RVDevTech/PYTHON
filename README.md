@@ -4,11 +4,11 @@
 
 ## -ÍNDICE:
 ### [A) Tratamiento de datos básicos y estructuras lógicas:](#a-tratamiento-de-datos-básicos-y-estructuras-lógicas)
-- **0- [Introducción](#introducción)**
-- **1- [Sintaxis y fundamentos del lenguaje:](#sintaxis-y-fundamentos-del-lenguaje)**
+- **0- [Introducción](#0--introducción)**
+- **1- [Sintaxis y fundamentos del lenguaje:](#1--sintaxis-y-fundamentos-del-lenguaje)**
   * [1.1- Asignación de variables y tipos de datos primitivos](#11--asignación-de-variables-y-tipos-de-datos-primitivos)
-  * [1.2 Impresión de datos y variables](#12-impresion-de-datos-y-variables)
-  * [1.3 Strings y sus metodos](#13-strings-y-sus-metodos)
+  * [1.2 Impresión de datos y variables](#12--impresión-de-datos-y-variables)
+  * [1.3 Strings y sus metodos](#13--strings-y-sus-métodos)
 ## A) Tratamiento de datos básicos y estructuras lógicas:
 
 ### 0- Introducción:
@@ -68,7 +68,7 @@ Con este enfoque, incluso <strong>los más principiantes pueden empezar a progra
 ---
 ### 1- Sintaxis y fundamentos del lenguaje:
 
-* #### 1.1- Asignación de variables  y tipos de datos primitivos:
+#### 1.1- Asignación de variables y tipos de datos primitivos:
 
 En **Python existen diferentes tipos de datos básicos:**<br>
 •	**Strings (str):** cadenas de texto (P.ej.: ”Hola, María”).<br>
@@ -86,7 +86,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 075624.png>)
 
-* #### 1.2- Impresión de datos y variables:
+#### 1.2- Impresión de datos y variables:
 
 <p align="justify">
    Para <strong>imprimir una variable</strong> o dato en <strong>Python</strong> se utiliza la función <strong>print().</strong> Para imprimir varias de ellas, se deben <strong>separar por comas dentro de ().</strong> No obstante, estas variables pueden <strong>mostrarse de distintas formas al imprimirse</strong> y su presentación puede configurarse mediante <strong>argumentos de la función:</strong>
@@ -138,7 +138,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-27 090150.png>)
 
-* #### 1.3- Strings y sus métodos:
+#### 1.3- Strings y sus métodos:
 
 <p align="justify">
    Los strings <strong>son inmutables.</strong> Sus métodos <strong>no modifican la cadena original,</strong> sino que devuelven <strong>una nueva.</strong>
