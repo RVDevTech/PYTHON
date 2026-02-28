@@ -144,26 +144,26 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
    Los strings <strong>son inmutables.</strong> Sus métodos <strong>no modifican la cadena original,</strong> sino que devuelven <strong>una nueva.</strong>
 </p>
 
-* ##### 	Métodos (str.metodo() ):
+* #### 	Métodos (str.metodo() ):
 
 **- Métodos de formato y transformación:**
 
- •	**.lowe ():** convierte todo el **texto a minúsculas.**
- •	**.upper ():** convierte todo el **texto a mayúsculas.**
- •	**.title ():** pone en **mayúscula la primera letra de cada palabra.**
- •	**.capitalize ():** pone en **mayúscula la primera letra de la cadena completa.**
- •	**.swapcase ():** invierte las **mayúsculas y minúsculas.**
- •	**.casefold ():** aplana **cualquier tipo de caracteres a minúsculas** (Más agresivo).
- •	**.strip (chars=None):** elimina **espacios o caracteres** indicados al **inicio y final.**
- •	**.lstrip (chars=None):** elimina **espacios o caracteres** indicados solo **en el inicio.**
- •	**.rstrip (chars=None):** elimina **espacios o caracteres** indicados solo **en el final.**
- •	**.ljust (width, fillchar=' '):** **alinea el texto a la izquierda** rellenando hasta width con fillchar.
- •	**.rjust (width, fillchar=' '):** alinea el texto a la derecha rellenando hasta **width** con **fillchar.**
- •	**.center (width, fillchar=' '):** **centra el texto** en **width** rellenando con **fillchar.**
- •	**.zfill (width):** rellena con **ceros a la izquierda hasta width.**
- •	**.replace (old, new, count=-1 o count=n):** **sustituye texto por otro** (opcional limitar cantidad con **“n”**, de lo contrario **será -1 por defecto**)
- •	**.removeprefix (prefix):** **elimina un prefijo** exacto si existe.
- •	**.removesuffix (suffix):** **elimina un sufijo** exacto si existe.
+ •	**.lower ():** convierte todo el **texto a minúsculas.**<br>
+ •	**.upper ():** convierte todo el **texto a mayúsculas.**<br>
+ •	**.title ():** pone en **mayúscula la primera letra de cada palabra.**<br>
+ •	**.capitalize ():** pone en **mayúscula la primera letra de la cadena completa.**<br>
+ •	**.swapcase ():** invierte las **mayúsculas y minúsculas.**<br>
+ •	**.casefold ():** aplana **cualquier tipo de caracteres a minúsculas** (Más agresivo).<br>
+ •	**.strip (chars=None):** elimina **espacios o caracteres** indicados al **inicio y final.**<br>
+ •	**.lstrip (chars=None):** elimina **espacios o caracteres** indicados solo **en el inicio.**<br>
+ •	**.rstrip (chars=None):** elimina **espacios o caracteres** indicados solo **en el final.**<br>
+ •	**.ljust (width, fillchar=' '):** **alinea el texto a la izquierda** rellenando hasta width con fillchar.<br>
+ •	**.rjust (width, fillchar=' '):** alinea el texto a la derecha rellenando hasta **width** con **fillchar.**<br>
+ •	**.center (width, fillchar=' '):** **centra el texto** en **width** rellenando con **fillchar.**<br>
+ •	**.zfill (width):** rellena con **ceros a la izquierda hasta width.**<br>
+ •	**.replace (old, new, count=-1 o count=n):** **sustituye texto por otro** (opcional limitar cantidad con **“n”**, de lo contrario **será -1 por defecto**)<br>
+ •	**.removeprefix (prefix):** **elimina un prefijo** exacto si existe.<br>
+ •	**.removesuffix (suffix):** **elimina un sufijo** exacto si existe.<br>
  •	**.expandtabs (tabsize=n):** sustituye **“\t” por “n” espacios** según tamaño de tabulación.
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 142443.png>)
@@ -171,14 +171,14 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 144005.png>)
 
 
-**- Métodos de formato y transformación:**
+**- Métodos de búsqueda y separación:**
 
- •	**.find (sub):** busca la **primera aparición** de la subcadena **sub** y devuelve **su índice**, o **-1 si no existe.**
- •	**.rfind (sub):** busca la **última aparición** de la subcadena **sub** y devuelve **su índice**, o **-1 si no existe.**
- •	**.count (sub):**   cuenta **cuántas veces** aparece la subcadena **sub.**
- •	**.index (sub):** igual que **.find (),** devuelve el **índice de la primera aparición de sub**, pero si no lo encuentra lanza un **ValueError,** que **frenará el código** a menos que le asignemos una **acción alternativa.**
- •	**.partition (sep):** divide la cadena en **tres partes** usando la **primera aparición del separador sep,** creando una **tupla** (que veremos más adleante).
- •	**.rpartition ():** divide la cadena en **tres partes** usando la **última aparición del separador sep,** creando una **tupla.**
+ •	**.find (sub):** busca la **primera aparición** de la subcadena **sub** y devuelve **su índice**, o **-1 si no existe.**<br>
+ •	**.rfind (sub):** busca la **última aparición** de la subcadena **sub** y devuelve **su índice**, o **-1 si no existe.**<br>
+ •	**.count (sub):**   cuenta **cuántas veces** aparece la subcadena **sub.**<br>
+ •	**.index (sub):** igual que **.find (),** devuelve el **índice de la primera aparición de sub**, pero si no lo encuentra lanza un **ValueError,** que **frenará el código** a menos que le asignemos una **acción alternativa.**<br>
+ •	**.partition (sep):** divide la cadena en **tres partes** usando la **primera aparición del separador sep,** creando una **tupla** (que veremos más adelante).<br>
+ •	**.rpartition ():** divide la cadena en **tres partes** usando la **última aparición del separador sep,** creando una **tupla.**<br>
  •	**slicing [start:stop:step]:** extrae **subcadenas de la cadena usando índices,** contando el de **inicio pero no el de final,** y con distancia **step** (Por defecto 1).
 
 Cada **letra o carácter en una cadena de texto tiene un índice,** que nos permite acceder a él usando **corchetes [ ].** Los índices pueden ser **positivos o negativos,** y esto determina **desde dónde contamos:**
