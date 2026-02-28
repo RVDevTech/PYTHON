@@ -7,8 +7,8 @@
 - **0- [Introducción](#0--introducción)**
 - **1- [Sintaxis y fundamentos del lenguaje:](#1--sintaxis-y-fundamentos-del-lenguaje)**
   * [1.1- Asignación de variables y tipos de datos primitivos](#11--asignación-de-variables-y-tipos-de-datos-primitivos)
-  * [1.2 Impresión de datos y variables](#12--impresión-de-datos-y-variables)
-  * [1.3 Strings y sus metodos](#13--strings-y-sus-métodos)
+  * [1.2- Impresión de datos y variables](#12--impresión-de-datos-y-variables)
+  * [1.3- Strings y sus métodos](#13--strings-y-sus-métodos)
 ## A) Tratamiento de datos básicos y estructuras lógicas:
 
 ### 0- Introducción:
