@@ -246,3 +246,7 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 <p align="justify">
  En la práctica, si <strong>la cadena no contiene escapes,</strong> una <strong>cadena normal,</strong> una <strong>raw string</strong> y un <strong>repr()</strong> se comportan <strong>igual al imprimirse;</strong> la <strong>única diferencia visual </strong>será la presencia de las <strong>comillas en la salida de repr().</strong>
 </p>
+
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 220851.png>)
+
+![alt text](<ASSETS/Captura de pantalla 2026-02-28 220916.png>)
