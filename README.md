@@ -109,7 +109,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
 
 -    <strong>Modificable para tomar otros valores</strong> tales como <strong>“-“,</strong><strong> “ ”,</strong> <strong>“”</strong> o <strong>“\t”.</strong>
 <p align="justify">
-   •<strong> File:</strong> elige la <strong>terminal o documento de salida del dato o variable </strong>pudiendo ejecutarse en <strong>la terminal del editor de código </strong>(asignación por defecto),<strong> la terminal de errores </strong>u<strong> otro documento del tipo .txt. .</strong>Por defecto, <strong>toma el valor “\n”.</strong>
+   •<strong> File:</strong> elige la <strong>terminal o documento de salida del dato o variable </strong>pudiendo ejecutarse en <strong>la terminal del editor de código </strong>(<strong>None= asignación por defecto),</strong><strong> la terminal de errores </strong>u<strong> otro documento del tipo .txt. .</strong>Por defecto, <strong>toma el valor “\n”.</strong>
 </p>
 
 -	**Salida en la terminal:** sys.stdout
@@ -178,7 +178,7 @@ Si queremos conocer **el tipo de dato** de una variable o valor, usamos **type (
  •	**.count (sub):**   cuenta **cuántas veces** aparece la subcadena **sub.**<br>
  •	**.index (sub):** igual que **.find (),** devuelve el **índice de la primera aparición de sub**, pero si no lo encuentra lanza un **ValueError,** que **frenará el código** a menos que le asignemos una **acción alternativa.**<br>
  •	**.partition (sep):** divide la cadena en **tres partes** usando la **primera aparición del separador sep,** creando una **tupla** (que veremos más adelante).<br>
- •	**.rpartition ():** divide la cadena en **tres partes** usando la **última aparición del separador sep,** creando una **tupla.**<br>
+ •	**.rpartition (sep):** divide la cadena en **tres partes** usando la **última aparición del separador sep,** creando una **tupla.**<br>
  •	**slicing [start:stop:step]:** extrae **subcadenas de la cadena usando índices,** contando el de **inicio pero no el de final,** y con distancia **step** (Por defecto 1).
 
 Cada **letra o carácter en una cadena de texto tiene un índice,** que nos permite acceder a él usando **corchetes [ ].** Los índices pueden ser **positivos o negativos,** y esto determina **desde dónde contamos:**
@@ -241,7 +241,7 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 •	**\f** → salto de página (espacio vertical grande)<br>
 •	**\v** → tabulación vertical
 
-- <p align="justify"><strong>Raw strings:</strong> las <strong>raw strings (r"...")</strong> se usan para que los <strong>caracteres de escape no se interpreten</strong> y la cadena se tome <strong>literalmente.</strong> (P.ej.: r"Hola\nMundo" se representa exactamente como Hola\nMundo, mostrando la barra y la letra n sin producir un salto de línea).</p>
+- <p align="justify"><strong>Raw strings:</strong> las <strong>raw strings (r"...")</strong> se usan para que los <strong>caracteres de escape no se interpreten</strong> y la cadena se tome <strong>literalmente.</strong> No puede acabar en <strong>“\”</strong> (SyntaxError). (P.ej.: r"Hola\nMundo" se representa exactamente como Hola\nMundo, mostrando la barra y la letra n sin producir un salto de línea).</p>
 - <p align="justify"><strong>Función repr():</strong> la función <strong>repr()</strong> devuelve la <strong>representación oficial</strong> de la cadena, mostrando los <strong>caracteres de escape y delimitando la cadena con comillas.</strong> La <strong>diferencia entre una raw string y un repr()</strong> es principalmente que <strong>repr()</strong> muestra explícitamente <strong>las comillas</strong> que delimitan la cadena, mientras que la <strong>raw string</strong> solo <strong>impide que los escapes se interpreten.</strong></p> 
 <p align="justify">
  En la práctica, si <strong>la cadena no contiene escapes,</strong> una <strong>cadena normal,</strong> una <strong>raw string</strong> y un <strong>repr()</strong> se comportan <strong>igual al imprimirse;</strong> la <strong>única diferencia visual </strong>será la presencia de las <strong>comillas en la salida de repr().</strong>
