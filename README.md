@@ -320,9 +320,9 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 [![Ver vídeo](https://img.youtube.com/vi/wJVcC6eKTBA/0.jpg)](https://www.youtube.com/watch?v=wJVcC6eKTBA).
 
 #### d) Booleanos (bool):
-•	Solo existen **dos valores:** <strong><em>True</em></strong> y <strong><em>False</em></strong>.
-•	Se utilizan para **validaciones, control de flujo y representaciones binarias.**
-•	Internamente son **subclase de int:** <strong><em>True</em></strong> = **1,** <strong><em>False</em></strong> = **0.**
+•	Solo existen **dos valores:** <strong><em>True</em></strong> y <strong><em>False.</em></strong>. <br>
+•	Se utilizan para **validaciones, control de flujo y representaciones binarias.** <br>
+•	Internamente son **subclase de int:** <strong><em>True</em></strong> = **1,** <strong><em>False</em></strong> = **0.** <br>
 •	Pueden comportarse como **valores numéricos en operaciones aritméticas.**
 
 ![alt text](<ASSETS/Captura de pantalla 2026-03-03 063331.png>)
