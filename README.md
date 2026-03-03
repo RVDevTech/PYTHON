@@ -277,8 +277,8 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 -	**pow(x, y[, z]) →** eleva **x  a la potencia y** luego aplica el **módulo z** (devuelve el **resto de la división)** opcionalmente.
 
 #### b) Números decimales (float):
-•	Representan **números con parte fraccionaria.**
-•	Se utilizan para **cálculos precisos, métricas, precios y estadísticas.**
+•	Representan **números con parte fraccionaria.** <br>
+•	Se utilizan para **cálculos precisos, métricas, precios y estadísticas.** <br>
 •	Presentan **limitaciones de precisión binaria** (Explicado más adelante).
 
 • **Métodos y funciones aplicables a float:**
@@ -289,6 +289,42 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 
 • **Funciones globales relacionadas:**
 -	**abs() → valor absoluto.**
--	**divmod (a, b) → **devuelve una **tupla (cociente, resto).**
+-	**divmod (a, b) →** devuelve una **tupla (cociente, resto).**
 -	**pow(x, y) →** **potencia** de **base no entera.**
 -	**round(x[, ndigits])** → **redondea x** a **ndigits decimales** (entero más cercano).
+
+#### c) Números complejos (complex):
+•	Compuestos por **parte real y parte imaginaria** (indicada con **j).** <br>
+•	Se utilizan en **matemáticas avanzadas, ingeniería y análisis de señales.** <br>
+•	**No son típicos** en backend tradicional, pero forman parte del **núcleo de Python.** <br>
+
+• **Atributos de un complex:**
+-	**real →** **parte real** del número.
+-	**imag →** **parte imaginaria** del número.
+
+![alt text](<ASSETS/Captura de pantalla 2026-03-03 062212.png>)
+
+-	**conjugate() →** devuelve el **conjugado complejo** (cambia el **signo de la parte imaginaria).**
+
+• **Funciones globales aplicables:**
+-	**abs() →** devuelve la **magnitud (módulo)** del **número complejo.**
+
+![alt text](<ASSETS/Captura de pantalla 2026-03-03 062527.png>)
+
+- **pow(z, n)→ potencia:** **multiplicación** de la base **y suma final** 
+
+![alt text](<ASSETS/Captura de pantalla 2026-03-03 062734.png>)
+
+* **Vídeo explicativo:** 
+
+[![Ver vídeo](https://img.youtube.com/vi/wJVcC6eKTBA/0.jpg)](https://www.youtube.com/watch?v=wJVcC6eKTBA).
+
+#### d) Booleanos (bool):
+•	Solo existen **dos valores:** <strong><em>True</em></strong> y <strong><em>False</em></strong>.
+•	Se utilizan para **validaciones, control de flujo y representaciones binarias.**
+•	Internamente son **subclase de int:** <strong><em>True</em></strong> = **1,** <strong><em>False</em></strong> = **0.**
+•	Pueden comportarse como **valores numéricos en operaciones aritméticas.**
+
+![alt text](<ASSETS/Captura de pantalla 2026-03-03 063331.png>)
+
+![alt text](<ASSETS/Captura de pantalla 2026-03-03 063414.png>)
