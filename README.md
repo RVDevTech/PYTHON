@@ -255,12 +255,12 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 #### 1.4- Números enteros, números decimales, números complejos y booleanos:
 
 <p align="justify">
- En <strong>Python</strong> existen varios <strong>tipos numéricos integrados</strong> y un <strong>tipo lógico fundamental.</strong> Todos <strong>son objetos</strong> y, como ya hemos dicho, se pueden <strong>inspeccionar con type(). </strong>
+ En <strong>Python</strong> existen varios <strong>tipos numéricos integrados</strong> y un <strong>tipo lógico fundamental.</strong> Todos <strong>son objetos</strong> y, como ya hemos dicho, se pueden <strong>inspeccionar con type (). </strong>
 </p>
 
-##### a) Números enteros (int):
-•	Representan **números sin parte decimal** y  **no tienen límite fijo.**
-•	Se utilizan para  **conteos, índices, identificadores y cantidades discretas.**
+#### a) Números enteros (int):
+•	Representan **números sin parte decimal** y  **no tienen límite fijo.** <br>
+•	Se utilizan para  **conteos, índices, identificadores y cantidades discretas.** <br>
 •	Pueden representarse en distintos **sistemas numéricos: decimal, binario, octal y hexadecimal.**
 
 •	**Métodos y funciones aplicables a int:**
@@ -274,4 +274,21 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 • **Funciones globales relacionadas:**
 -	**abs() →** **valor absoluto.**
 -	**divmod (a, b) →** devuelve una **tupla (cociente, resto).**
--	**pow(x, y[, z]) →** eleva **x a la potencia y** luego aplica el **módulo z** (devuelve el **resto de la división**) opcionalmente.
+-	**pow(x, y[, z]) →** eleva **x  a la potencia y** luego aplica el **módulo z** (devuelve el **resto de la división)** opcionalmente.
+
+#### b) Números decimales (float):
+•	Representan **números con parte fraccionaria.**
+•	Se utilizan para **cálculos precisos, métricas, precios y estadísticas.**
+•	Presentan **limitaciones de precisión binaria** (Explicado más adelante).
+
+• **Métodos y funciones aplicables a float:**
+-	**as_integer_ratio () →** devuelve una **tupla (numerador, denominador)** que representa el número como **fracción exacta.**
+-	**is_integer () →** devuelve <strong><em>True</em></strong> si el número es un **entero exacto** (sin parte decimal, **n.0**).
+-	**hex() →** devuelve **representación hexadecimal de la fracción.**
+-	**float.fromhex() →** crea un **float desde** su representación **hexadecimal.**
+
+• **Funciones globales relacionadas:**
+-	**abs() → valor absoluto.**
+-	**divmod (a, b) → **devuelve una **tupla (cociente, resto).**
+-	**pow(x, y) →** **potencia** de **base no entera.**
+-	**round(x[, ndigits])** → **redondea x** a **ndigits decimales** (entero más cercano).
