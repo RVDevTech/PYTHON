@@ -9,6 +9,7 @@
   * [1.1- Asignación de variables y tipos de datos primitivos](#11--asignación-de-variables-y-tipos-de-datos-primitivos)
   * [1.2- Impresión de datos y variables](#12--impresión-de-datos-y-variables)
   * [1.3- Strings y sus métodos](#13--strings-y-sus-métodos)
+  * [1.4- Números enteros, números decimales, números complejos y booleanos](#14--números-enteros-números-decimales-números-complejos-y-booleanos)
 ## A) Tratamiento de datos básicos y estructuras lógicas:
 
 ### 0- Introducción:
@@ -250,3 +251,27 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 220851.png>)
 
 ![alt text](<ASSETS/Captura de pantalla 2026-02-28 220916.png>)
+
+#### 1.4- Números enteros, números decimales, números complejos y booleanos:
+
+<p align="justify">
+ En <strong>Python</strong> existen varios <strong>tipos numéricos integrados</strong> y un <strong>tipo lógico fundamental.</strong> Todos <strong>son objetos</strong> y, como ya hemos dicho, se pueden <strong>inspeccionar con type(). </strong>
+</p>
+
+##### a) Números enteros (int):
+•	Representan **números sin parte decimal** y  **no tienen límite fijo.**
+•	Se utilizan para  **conteos, índices, identificadores y cantidades discretas.**
+•	Pueden representarse en distintos **sistemas numéricos: decimal, binario, octal y hexadecimal.**
+
+•	**Métodos y funciones aplicables a int:**
+-	**Binario: bin(x) →** devuelve string **'0b...'.**
+-	**Octal: oct(x) →** devuelve string **'0o...'.**
+-	**Hexadecimal: hex(x) →** devuelve string **'0x...'.**
+-	<p align="justify">Para <strong>realizar lo contrario,</strong> no hace falta hacer <strong>ninguna conversión manual:</strong> al escribir <strong>0b1010, 0o12</strong> o <strong>0xA,</strong> <strong>Python</strong> lo interpreta automáticamente como un <strong>entero en base 10</strong> al leer el código.</p>
+
+![alt text](<ASSETS/Captura de pantalla 2026-03-03 055752.png>)
+
+• **Funciones globales relacionadas:**
+-	**abs() →** **valor absoluto.**
+-	**divmod (a, b) →** devuelve una **tupla (cociente, resto).**
+-	**pow(x, y[, z]) →** eleva **x a la potencia y** luego aplica el **módulo z** (devuelve el **resto de la división**) opcionalmente.
