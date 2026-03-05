@@ -264,9 +264,9 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 •	Pueden representarse en distintos **sistemas numéricos: decimal, binario, octal y hexadecimal.**
 
 •	**Métodos y funciones aplicables a int:**
--	**Binario: bin(x) →** devuelve string **'0b...'.**
--	**Octal: oct(x) →** devuelve string **'0o...'.**
--	**Hexadecimal: hex(x) →** devuelve string **'0x...'.**
+-	**Binario: .bin(x) →** devuelve string **'0b...'.**
+-	**Octal: .oct(x) →** devuelve string **'0o...'.**
+-	**Hexadecimal: .hex(x) →** devuelve string **'0x...'.**
 -	<p align="justify">Para <strong>realizar lo contrario,</strong> no hace falta hacer <strong>ninguna conversión manual:</strong> al escribir <strong>0b1010, 0o12</strong> o <strong>0xA,</strong> <strong>Python</strong> lo interpreta automáticamente como un <strong>entero en base 10</strong> al leer el código.</p>
 
 ![alt text](<ASSETS/Captura de pantalla 2026-03-03 055752.png>)
@@ -282,9 +282,9 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 •	Presentan **limitaciones de precisión binaria** (Explicado más adelante).
 
 • **Métodos y funciones aplicables a float:**
--	**as_integer_ratio () →** devuelve una **tupla (numerador, denominador)** que representa el número como **fracción exacta.**
--	**is_integer () →** devuelve <strong><em>True</em></strong> si el número es un **entero exacto** (sin parte decimal, **n.0**).
--	**hex() →** devuelve **representación hexadecimal de la fracción.**
+-	**.as_integer_ratio () →** devuelve una **tupla (numerador, denominador)** que representa el número como **fracción exacta.**
+-	**.is_integer () →** devuelve <strong><em>True</em></strong> si el número es un **entero exacto** (sin parte decimal, **n.0**).
+-	**.hex() →** devuelve **representación hexadecimal de la fracción.**
 -	**float.fromhex() →** crea un **float desde** su representación **hexadecimal.**
 
 • **Funciones globales relacionadas:**
@@ -304,7 +304,7 @@ Cada **letra o carácter en una cadena de texto tiene un índice,** que nos perm
 
 ![alt text](<ASSETS/Captura de pantalla 2026-03-03 062212.png>)
 
--	**conjugate() →** devuelve el **conjugado complejo** (cambia el **signo de la parte imaginaria).**
+-	**.conjugate() →** devuelve el **conjugado complejo** (cambia el **signo de la parte imaginaria).**
 
 • **Funciones globales aplicables:**
 -	**abs() →** devuelve la **magnitud (módulo)** del **número complejo.**
