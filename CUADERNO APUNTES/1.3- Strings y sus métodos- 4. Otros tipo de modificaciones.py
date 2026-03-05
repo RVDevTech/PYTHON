@@ -8,7 +8,6 @@ texto_modificado = texto.translate(mapa)
 print("Original:", texto)
 print("Modificado:", texto_modificado)
 
-
 # 2. Escapes comunes
 
 escapes = "Primera línea\nSegunda línea\tcon tabulación\\y comillas: \' \" \rSobreescribe inicio"
